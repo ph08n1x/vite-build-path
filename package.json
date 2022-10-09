@@ -1,0 +1,17 @@
+{
+  "name": "esbuild-play-linux-init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm i esbuild-linux-64 && ESBUILD_BINARY_PATH=$(pwd)/node_modules/esbuild-linux-64/bin/esbuild npm i esbuild",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.15.10",
+    "esbuild-linux-64": "^0.15.10",
+    "vite": "^3.1.6"
+  }
+}
